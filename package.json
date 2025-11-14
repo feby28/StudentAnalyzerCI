@@ -1,0 +1,13 @@
+{
+    "name": "student-performance-analyzer",
+    "version": "1.0.0",
+    "description": "Student performance analysis with unit tests",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "test": "node test.js"
+    },
+    "keywords": ["student", "performance", "grading", "testing"],
+    "author": "",
+    "license": "ISC"
+}
