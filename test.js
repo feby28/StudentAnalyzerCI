@@ -10,9 +10,6 @@ try {
     assert.throws(() => calculateAverage([]), /Invalid scores array/);
     assert.throws(() => calculateAverage([80, "ninety", 100]), /All scores must be numbers/);
 
-    // 💥 Intentional break test
-    assert.strictEqual(getGrade(50), "A", "Intentional Fail Test: Grade 50 should fail (expecting A, actual is F)***");
-
 } catch (error) {
     console.error("Test failed:", error.message);
     process.exit(1);
